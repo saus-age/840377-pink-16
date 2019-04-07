@@ -84,48 +84,74 @@
     </div>
   </section>
   <section class="services">
-    <h2 class="visually-hidden">Расценки на услуги</h2>
-    <table class="services__cost">
-      <tr>
-        <th></th>
-        <th>
-          <b>База</b>
-          <p>1,99 USD</p>
-        </th>
-        <th>
-          <b>Стандарт</b>
-          <p>3,99 USD</p>
-        </th>
-        <th>
-          <b>Анлим</b>
-          <p>9,99 USD</p>
-        </th>
-      </tr>
-      <tr>
-        <td>Розовый фильтр</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Смайлики</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Комментарии</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <div class="services__toggles slider__toggles">
-      <button class="slider__toggle" type="button"></button>
-      <button class="slider__toggle" type="button"></button>
-      <button class="slider__toggle" type="button"></button>
-    </div>
-  </section>
+      <div class="services__container main-page__wrapper">
+        <h2 class="visually-hidden">Расценки на услуги</h2>
+        <div class="services__wrapper">
+          <table class="services__list table">
+            <thead class="services__head">
+            <tr>
+              <th class="services__empty"></th>
+              <th class="services__tariff">База <span class="services__cost">1,99 USD</span></th>
+              <th class="services__tariff services__hit">Стандарт <span class="services__cost">3,99 USD</span></th>
+              <th class="services__tariff">Анлим <span class="services__cost">9,99 USD</span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="services__row">
+              <td class="services__option">Розовый фильтр</td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Розовый фильтр</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Розовый фильтр</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Розовый фильтр</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="services__row">
+              <td class="services__option">Смайлики</td>
+              <td class="services__value services__value--no">
+                <div class="services__value-box"><span class="services__option-name">Смайлики</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Смайлики</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Смайлики</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="services__row">
+              <td class="services__option">Комментарии</td>
+              <td class="services__value services__value--no">
+                <div class="services__value-box"><span class="services__option-name">Комментарии</span>
+                </div>
+              </td>
+              <td class="services__value services__value--no">
+                <div class="services__value-box"><span class="services__option-name">Комментарии</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Комментарии</span>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <p class="services__toggles slider">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle slider__toggle--check" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </p>
+        </div>
+      </div>
+    </section>
   <section class="contacts">
     <div class="contacts__block address">
       <p class="address__header">
