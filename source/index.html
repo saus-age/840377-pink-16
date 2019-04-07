@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>PINK</title>
+</head>
+<body>
+<header class="page-header wrapper">
+  <a class="page-header__link">
+    <img class="page-header__logo" src="https://placeimg.com/72/23/any" width="72" height="23" alt="Логотип PINK">
+  </a>
+  <nav class="page-header__nav main-nav">
+    <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <ul class="main-nav__list site-list">
+      <li class="site-list__item">
+        <a class="site-list__link" href="#">Главная</a>
+      </li>
+      <li class="site-list__item">
+        <a class="site-list__link" href="photo.html">Фотографии</a>
+      </li>
+      <li class="site-list__item">
+        <a class="site-list__link" href="form.html">Конкурс</a>
+      </li>
+      <li class="site-list__item">
+        <a class="site-list__link" href="https://htmlacademy.ru">Html Academy</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main class="page-main wrapper">
+  <h1 class="visually-hidden">Приложение PINK</h1>
+  <div class="app">
+    <a class="app__link">Скачать приложение</a>
+    <ul class="app__list logo-stage">
+      <li class="logo-stage__item logo-stage__item--IOS"><a href="#"><img src="#" alt="Логотип IOS"></a></li>
+      <li class="logo-stage__item logo-stage__item--android"><a href="#"><img src="#" alt="Логотип Android"></a></li>
+      <li class="logo-stage__item logo-stage__item--windows"><a href="#"><img src="#" alt="Логотип Windows"></a></li>
+    </ul>
+    <p class="app__text">Доступно для iPhone, iPad, Android,</p>
+    <p class="app__text">Windows Phone, OS X, Windows 9</p>
+  </div>
+  <section class="features">
+    <p class="features__text">Устали от серости мегаполиса?</p>
+    <p class="features__text">Нам есть, что вам предложить!</p>
+    <ul class="features__list">
+      <li class="features__item">
+        <h2 class="features__item-title">Поднимает настроени</h2>
+        <p class="features__item-text">
+          Приложение позволит вам победить осеннюю хандру и депрессию буквально
+          в несколько кликов!
+        </p>
+      </li>
+      <li class="features__item">
+        <h2 class="features__item-title">Меняет мир вокруг</h2>
+        <p class="features__item-text">
+          Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+        </p>
+      </li>
+      <li class="features__item">
+        <h2 class="features__item-title">Заводит новых друзей</h2>
+        <p class="features__item-text">
+          Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+        </p>
+        <img class="features__item-img" src="https://placeimg.com/157/320/any" alt="#">
+      </li>
+    </ul>
+  </section>
+<section class="reviews">
+    <div class="reviews__list slider">
+      <div class="slider__item">
+        <h2 class="slider__item-title">Николай Петров</h2>
+        <p class="slider__item-text">
+          «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые
+          веши! А еше я познакомился со своей будушей женой в комментариях к выложенной фотографии!»
+        </p>
+      </div>
+    </div>
+    <button class="reviews__button" type="button">Предыдущий отзыв</button>
+    <button class="reviews__button" type="button">Следующий отзыв</button>
+    <div class="reviews__toggles slider__toggles">
+      <button class="slider__toggle" type="button"></button>
+      <button class="slider__toggle" type="button"></button>
+      <button class="slider__toggle" type="button"></button>
+    </div>
+  </section>
+  <section class="services">
+      <div class="services__container main-page__wrapper">
+        <h2 class="visually-hidden">Расценки на услуги</h2>
+        <div class="services__wrapper">
+          <table class="services__list table">
+            <thead class="services__head">
+            <tr>
+              <th class="services__empty"></th>
+              <th class="services__tariff">База <span class="services__cost">1,99 USD</span></th>
+              <th class="services__tariff services__hit">Стандарт <span class="services__cost">3,99 USD</span></th>
+              <th class="services__tariff">Анлим <span class="services__cost">9,99 USD</span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="services__row">
+              <td class="services__option">Розовый фильтр</td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Розовый фильтр</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Розовый фильтр</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Розовый фильтр</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="services__row">
+              <td class="services__option">Смайлики</td>
+              <td class="services__value services__value--no">
+                <div class="services__value-box"><span class="services__option-name">Смайлики</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Смайлики</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Смайлики</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="services__row">
+              <td class="services__option">Комментарии</td>
+              <td class="services__value services__value--no">
+                <div class="services__value-box"><span class="services__option-name">Комментарии</span>
+                </div>
+              </td>
+              <td class="services__value services__value--no">
+                <div class="services__value-box"><span class="services__option-name">Комментарии</span>
+                </div>
+              </td>
+              <td class="services__value services__value--yes">
+                <div class="services__value-box"><span class="services__option-name">Комментарии</span>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <p class="services__toggles slider">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle slider__toggle--check" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </p>
+        </div>
+      </div>
+    </section>
+  <section class="contacts">
+    <div class="contacts__block address">
+      <p class="address__header">
+        Остались вопросы? Свяжитесь с нами!
+      </p>
+      <ul class="address__list">
+        <li class="address__item">
+          <h3 class="address__title">Звоните</h3>
+          <p class="address__text">+7(812)555-66-66</p>
+        </li>
+        <li class="address__item">
+          <h3 class="address__title">Пишите</h3>
+          <p class="address__text">mail@htmlacademy.ru</p>
+        </li>
+        <li class="address__item">
+          <h3 class="address__title">Приезжайте в гости</h3>
+          <p class="address__text">Ул. Большая Конюшенная, 19/8</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer class="footer wrapper">
+  <div class="footer__logo">
+    <img class="footer__img" src="https://placeimg.com/147/41/any" alt="логотип PINK">
+  </div>
+  <ul class="footer__social">
+    <li class="footer__social-item"><a href="#"></a></li>
+    <li class="footer__social-item"><a href="#"></a></li>
+    <li class="footer__social-item"><a href="#"></a></li>
+  </ul>
+  <div class="footer__logo-html">
+    <p class="footer__logo-html-text">Разработано</p>
+    <img class="footer__logo-html-img" src="https://placeimg.com/27/34/any" alt="логотип htmlacademy">
+  </div>
+</footer>
+</body>
 </html>
