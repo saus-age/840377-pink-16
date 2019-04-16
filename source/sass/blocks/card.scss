@@ -1,0 +1,22 @@
+
+.card__like {
+  font-family: $fonts;
+  font-size: 12px;
+  line-height: 24px;
+  color: #d22856;
+  font-weight: 400;
+}
+
+.card__text {
+  font-family: $fonts;
+  line-height: 24px;
+  color: #283645;
+  font-weight: 400;
+}
+
+.card__user-name {
+  color: #283645;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+}

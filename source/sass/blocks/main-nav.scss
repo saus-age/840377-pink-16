@@ -1,0 +1,7 @@
+.main-nav {
+  background-color: $block-background-color;
+}
+
+.main-nav__list {
+  @include reset-indents;
+}

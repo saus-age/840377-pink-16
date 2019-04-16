@@ -1,0 +1,14 @@
+.page-main__text {
+  background-color: #ffffff;
+  font-family: $fonts;
+  color: #283645;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.card {
+  @include reset-indents;
+  list-style-type: none;
+}
