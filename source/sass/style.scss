@@ -1,24 +1,3 @@
-$block-background-color: #283645;
-
-$block2-background-color: #1d2631;
-
-$fonts: "OpenSans", sans-serif;
-
-@mixin style-link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-@mixin style-background-image {
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@mixin reset-indents {
-  padding: 0;
-  margin: 0;
-}
-
 @import "blocks/features.scss";
 @import "blocks/footer-logo.scss";
 @import "blocks/download-app.scss";
