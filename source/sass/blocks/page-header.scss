@@ -1,0 +1,16 @@
+.page-header__block {
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+
+  @include style-background-image;
+  background-size: cover;
+}
+
+.page-header__title {
+  font-family: $fonts;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+
+  @include reset-indents;
+}

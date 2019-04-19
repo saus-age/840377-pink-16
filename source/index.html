@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>PINK</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="page-header wrapper">
-  <a class="page-header__link">
-    <img class="page-header__logo" src="https://placeimg.com/72/23/any" width="72" height="23" alt="Логотип PINK">
-  </a>
+<header class="page-header header-background wrapper">
   <nav class="page-header__nav main-nav">
+  <a class="page-header__link" href="#">
+    <img class="page-header__logo" src="img/logo-pink-white-mobile.svg" width="72" height="23" alt="Логотип PINK">
+  </a>
     <button class="main-nav__toggle" type="button">Открыть меню</button>
     <ul class="main-nav__list site-list">
       <li class="site-list__item">
@@ -26,15 +27,18 @@
       </li>
     </ul>
   </nav>
+  <div class="page-header__block">
+  <img src="img/iphone-hand-mobile@1x.png" width="258" height="286" alt="iphone presentation">
+  </div>
 </header>
 <main class="page-main wrapper">
   <h1 class="visually-hidden">Приложение PINK</h1>
   <div class="app">
-    <a class="app__link">Скачать приложение</a>
+    <a class="app__link" href="#">Скачать приложение</a>
     <ul class="app__list logo-stage">
-      <li class="logo-stage__item logo-stage__item--IOS"><a href="#"><img src="#" alt="Логотип IOS"></a></li>
-      <li class="logo-stage__item logo-stage__item--android"><a href="#"><img src="#" alt="Логотип Android"></a></li>
-      <li class="logo-stage__item logo-stage__item--windows"><a href="#"><img src="#" alt="Логотип Windows"></a></li>
+      <li class="logo-stage__item logo-stage__item--IOS"><a class="logo-stage__link" href="#"><img src="img/logo-apple.svg"  width="47" height="56" alt="Логотип IOS"></a></li>
+      <li class="logo-stage__item logo-stage__item--android"><a class="logo-stage__link" href="#"><img src="img/logo-android.svg" width="43" height="47" alt="Логотип Android"></a></li>
+      <li class="logo-stage__item logo-stage__item--windows"><a class="logo-stage__link" href="#"><img src="img/logo-microsoft.svg" width="44" height="41" alt="Логотип Windows"></a></li>
     </ul>
     <p class="app__text">Доступно для iPhone, iPad, Android,</p>
     <p class="app__text">Windows Phone, OS X, Windows 9</p>
@@ -61,7 +65,7 @@
         <p class="features__item-text">
           Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
         </p>
-        <img class="features__item-img" src="https://placeimg.com/157/320/any" alt="#">
+        <img class="features__item-img" src="img/iphone-screen-mobile@1x.png" width="157" height="320" alt="#">
       </li>
     </ul>
   </section>
@@ -174,18 +178,30 @@
     </div>
   </section>
 </main>
-<footer class="footer wrapper">
-  <div class="footer__logo">
-    <img class="footer__img" src="https://placeimg.com/147/41/any" alt="логотип PINK">
+<footer class="footer">
+  <div class="footer__logo footer-logo">
+    <img class="footer__img" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="логотип PINK">
   </div>
-  <ul class="footer__social">
-    <li class="footer__social-item"><a href="#"></a></li>
-    <li class="footer__social-item"><a href="#"></a></li>
-    <li class="footer__social-item"><a href="#"></a></li>
+  <ul class="footer__socials footer-socials">
+    <li class="footer__social twitter-link">
+      <a href="#">
+        <img class="footer-social__img footer-social__img--twitter" src="img/icon-twitter.svg" width="19" height="15" alt="логотип twitter">
+      </a>
+  </li>
+    <li class="footer__social facebook-link">
+      <a href="#">
+        <img class="footer-social__img footer-social__img--facebook" src="img/icon-facebook.svg" width="9" height="19" alt="логотип facebook">
+      </a>
+    </li>
+    <li class="footer__social youtube-link">
+      <a href="#">
+        <img class="footer-social__img footer-social__img--youtube" src="img/icon-youtube.svg" width="15" height="14" alt="логотип youtube">
+      </a>
+    </li>
   </ul>
-  <div class="footer__logo-html">
-    <p class="footer__logo-html-text">Разработано</p>
-    <img class="footer__logo-html-img" src="https://placeimg.com/27/34/any" alt="логотип htmlacademy">
+  <div class="footer__academy footer-academy">
+    <p class="footer-academy__text">Разработано</p>
+    <img class="footer-academy__img" src="img/logo-htmlacademy.svg" width="27" height="34" alt="логотип htmlacademy">
   </div>
 </footer>
 </body>
