@@ -1,0 +1,16 @@
+.app__link {
+  @include style-link;
+  font-family: $fonts;
+  display: block;
+  width: 280px;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.app__list {
+  @include reset-indents;
+}

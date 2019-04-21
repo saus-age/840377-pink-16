@@ -1,0 +1,30 @@
+.features {
+  background-color: #ffffff;
+}
+
+.features__item {
+  font-family: $fonts;
+  text-align: center;
+  list-style-type: none;
+}
+
+.features__item-title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.features__item-text {
+  color: #283645;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.features__text {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: $fonts;
+  color: #283645;
+  text-align: center;
+}

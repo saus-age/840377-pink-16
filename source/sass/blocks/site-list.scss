@@ -1,0 +1,11 @@
+.site-list__item {
+  font-family: $fonts;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  list-style-type: none;
+}
+
+.site-list__link {
+  @include style-link;
+}
